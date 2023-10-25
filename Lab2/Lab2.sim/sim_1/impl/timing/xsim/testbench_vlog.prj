@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../Lab2.gen/sources_1/ip/clk_wiz_0" --include "../../../../../Lab2.gen/sources_1/ip/clk_wiz_1" \
+"testbench_time_impl.v" \
+"../../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_Testbench/testbench.v" \
+
+# Do not sort compile order
+nosort

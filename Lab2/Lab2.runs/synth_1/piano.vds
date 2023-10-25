@@ -1,0 +1,273 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct 22 00:54:48 2023
+# Process ID: 10144
+# Current directory: D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1
+# Command line: vivado.exe -log piano.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source piano.tcl
+# Log file: D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1/piano.vds
+# Journal file: D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source piano.tcl -notrace
+Command: synth_design -top piano -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7568
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1006.352 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'piano' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/piano.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_divider' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/clk_divider.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1/.Xil/Vivado-10144-LAPTOP-07PLPR0K/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1/.Xil/Vivado-10144-LAPTOP-07PLPR0K/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_divider' (2#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/clk_divider.v:1]
+INFO: [Synth 8-6157] synthesizing module 'key_encoder' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/key_encoder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'key_encoder' (3#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/key_encoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keytofrequency' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v:23]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1/.Xil/Vivado-10144-LAPTOP-07PLPR0K/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (4#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1/.Xil/Vivado-10144-LAPTOP-07PLPR0K/realtime/blk_mem_gen_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'wea' of module 'blk_mem_gen_0' is unconnected for instance 'BRAMROM' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v:66]
+WARNING: [Synth 8-7071] port 'dina' of module 'blk_mem_gen_0' is unconnected for instance 'BRAMROM' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v:66]
+WARNING: [Synth 8-7023] instance 'BRAMROM' of module 'blk_mem_gen_0' has 6 connections declared, but only 4 given [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v:66]
+INFO: [Synth 8-251] notecode = x, countStart = x [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v:73]
+INFO: [Synth 8-6155] done synthesizing module 'keytofrequency' (5#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PWMcontroller' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/PWMcontroller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'PWMcontroller' (6#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/PWMcontroller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'piano' (7#1) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/piano.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1006.352 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1006.352 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1006.352 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1006.352 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'CLKDIV/CLKGEN'
+Finished Parsing XDC File [d:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'CLKDIV/CLKGEN'
+Parsing XDC File [d:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'TOFREQ/BRAMROM'
+Finished Parsing XDC File [d:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'TOFREQ/BRAMROM'
+Parsing XDC File [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[0]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:18]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[1]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:20]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[2]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:22]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[3]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:24]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[4]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:26]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[5]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:28]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[6]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:30]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[7]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:32]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[8]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:34]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'IOs[9]' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:36]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'reset' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:38]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'clk_in' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:40]
+CRITICAL WARNING: [Common 17-69] Command failed: Cannot change direction of connected port 'beep' [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:42]
+CRITICAL WARNING: [Constraints 18-948] create_clock: can't define clock 'clk_in' with period '2' which is less than or equal to the delta '5' between waveform edges (0,5) [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc:49]
+Finished Parsing XDC File [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_ConstraintFiles/piano.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/piano_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/piano_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1009.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1009.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1009.227 ; gain = 2.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1009.227 ; gain = 2.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in. (constraint file  {d:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in. (constraint file  {d:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for CLKDIV/CLKGEN. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for TOFREQ/BRAMROM. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1009.227 ; gain = 2.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1009.227 ; gain = 2.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   8 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1009.227 ; gain = 2.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1009.227 ; gain = 2.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1012.824 ; gain = 6.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1013.656 ; gain = 7.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin wea[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \TOFREQ/BRAMROM  has unconnected pin dina[0]
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     1|
+|2     |clk_wiz     |     1|
+|3     |CARRY4      |     6|
+|4     |LUT1        |     1|
+|5     |LUT2        |     2|
+|6     |LUT3        |     2|
+|7     |LUT4        |     4|
+|8     |LUT5        |     2|
+|9     |LUT6        |    12|
+|10    |FDRE        |    25|
+|11    |IBUF        |    11|
+|12    |OBUF        |     1|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 15 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1020.922 ; gain = 11.695
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.922 ; gain = 14.570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.996 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1035.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 3 Warnings, 29 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:19 . Memory (MB): peak = 1035.121 ; gain = 28.770
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.runs/synth_1/piano.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file piano_utilization_synth.rpt -pb piano_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 22 00:55:10 2023...

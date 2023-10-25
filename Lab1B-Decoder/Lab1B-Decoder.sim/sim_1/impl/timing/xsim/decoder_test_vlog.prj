@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"decoder_test_time_impl.v" \
+"../../../../../../../Lab Materials/LAB1/Lab1-code/1B/decoder_test.v" \
+
+# Do not sort compile order
+nosort

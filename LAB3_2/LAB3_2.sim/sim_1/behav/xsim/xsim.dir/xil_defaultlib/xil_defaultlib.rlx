@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1698196227,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/cal_dist.v,,blk_mem_gen_0,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sim_1/imports/Testbench/tb.v,1667883526,verilog,,,,tb,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/cal_dist.v,1698197487,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/done_check.v,,cal_dist,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/done_check.v,1659308820,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/find_min.v,,done_check,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/find_min.v,1698196666,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/get_pointxy.v,,find_min,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/get_pointxy.v,1659308820,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/kmeans.v,,get_pointxy,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/kmeans.v,1659308820,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/read_address.v,,kmeans,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/read_address.v,1659308820,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/update_centers.v,,read_address,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/update_centers.v,1698197658,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/xyaccumulator.v,,update_centers,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sources_1/imports/SourceCode/xyaccumulator.v,1698199691,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/LAB3_2/LAB3_2.srcs/sim_1/imports/Testbench/tb.v,,xyaccumulator,,,,,,,,

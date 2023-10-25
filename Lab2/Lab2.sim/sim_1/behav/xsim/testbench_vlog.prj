@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Lab2.gen/sources_1/ip/clk_wiz_0" --include "../../../../Lab2.gen/sources_1/ip/clk_wiz_1" \
+"../../../../Lab2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../Lab2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../Lab2.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/PWMcontroller.v" \
+"../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/clk_divider.v" \
+"../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/key_encoder.v" \
+"../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/keytofrequency.v" \
+"../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_VerilogFiles/piano.v" \
+"../../../../../../Lab Materials/LAB2/Lab2-code/Lab2_Testbench/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

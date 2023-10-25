@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/HW1-2b/HW1-2b.srcs/sources_1/new/ripple-carry.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-311] analyzing module RCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/HW1-2b/HW1-2b.srcs/sim_1/new/RCA_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RCA

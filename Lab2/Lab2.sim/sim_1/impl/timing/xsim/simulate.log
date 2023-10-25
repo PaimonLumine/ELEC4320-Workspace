@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+freq (HZ):          0
+freq (HZ):  100000000
+freq (HZ):        260
+freq (HZ):        292
+freq (HZ):        522
+freq (HZ):        586
+freq (HZ):       1045
+freq (HZ):       1173
+$finish called at time : 70010200 ns : File "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_Testbench/testbench.v" Line 58

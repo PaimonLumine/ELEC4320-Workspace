@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB3_2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/cal_dist.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/done_check.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/find_min.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/get_pointxy.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/kmeans.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/read_address.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/update_centers.v" \
+"../../../../LAB3_2.srcs/sources_1/imports/SourceCode/xyaccumulator.v" \
+"../../../../LAB3_2.srcs/sim_1/imports/Testbench/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.sim/sim_1/impl/timing/xsim/testbench_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PWMcontroller
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module key_encoder
+INFO: [VRFC 10-311] analyzing module keytofrequency
+INFO: [VRFC 10-311] analyzing module piano
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_Testbench/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

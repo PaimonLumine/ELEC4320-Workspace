@@ -1,0 +1,6 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_Testbench/testbench.v,1696151400,verilog,,,,testbench,,,../../../../../Lab2.gen/sources_1/ip/clk_wiz_0;../../../../../Lab2.gen/sources_1/ip/clk_wiz_1,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab2/Lab2.sim/sim_1/impl/timing/xsim/testbench_time_impl.v,1697795055,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB2/Lab2-code/Lab2_Testbench/testbench.v,,PWMcontroller;clk_divider;clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz;glbl;key_encoder;keytofrequency;piano,,,../../../../../Lab2.gen/sources_1/ip/clk_wiz_0;../../../../../Lab2.gen/sources_1/ip/clk_wiz_1,,,,,

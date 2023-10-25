@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/Lab1B-Decoder/Lab1B-Decoder.sim/sim_1/impl/timing/xsim/decoder_test_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Lab Materials/LAB1/Lab1-code/1B/decoder_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_test
