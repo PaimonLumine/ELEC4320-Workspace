@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="40000fs"></ZoomStartTime>
+      <ZoomEndTime time="291801fs"></ZoomEndTime>
+      <Cursor1Time time="65000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="69" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center0x" type="array">
+      <obj_property name="ElementShortName">center0x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center0x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center0y" type="array">
+      <obj_property name="ElementShortName">center0y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center0y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center1x" type="array">
+      <obj_property name="ElementShortName">center1x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center1x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center1y" type="array">
+      <obj_property name="ElementShortName">center1y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center1y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center2x" type="array">
+      <obj_property name="ElementShortName">center2x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center2x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center2y" type="array">
+      <obj_property name="ElementShortName">center2y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center2y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center3x" type="array">
+      <obj_property name="ElementShortName">center3x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center3x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center3y" type="array">
+      <obj_property name="ElementShortName">center3y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center3y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center4x" type="array">
+      <obj_property name="ElementShortName">center4x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center4x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center4y" type="array">
+      <obj_property name="ElementShortName">center4y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center4y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center5x" type="array">
+      <obj_property name="ElementShortName">center5x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center5x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center5y" type="array">
+      <obj_property name="ElementShortName">center5y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center5y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center6x" type="array">
+      <obj_property name="ElementShortName">center6x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center6x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center6y" type="array">
+      <obj_property name="ElementShortName">center6y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center6y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center7x" type="array">
+      <obj_property name="ElementShortName">center7x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center7x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/center7y" type="array">
+      <obj_property name="ElementShortName">center7y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">center7y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dwea" type="logic">
+      <obj_property name="ElementShortName">dwea</obj_property>
+      <obj_property name="ObjectShortName">dwea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/lwea" type="logic">
+      <obj_property name="ElementShortName">lwea</obj_property>
+      <obj_property name="ObjectShortName">lwea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/waddr" type="array">
+      <obj_property name="ElementShortName">waddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/labels" type="array">
+      <obj_property name="ElementShortName">labels[2:0]</obj_property>
+      <obj_property name="ObjectShortName">labels[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/sweepPointsReadMem" type="logic">
+      <obj_property name="ElementShortName">sweepPointsReadMem</obj_property>
+      <obj_property name="ObjectShortName">sweepPointsReadMem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/sweepPointsReadPoint" type="logic">
+      <obj_property name="ElementShortName">sweepPointsReadPoint</obj_property>
+      <obj_property name="ObjectShortName">sweepPointsReadPoint</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/sweepPointsCalDist" type="logic">
+      <obj_property name="ElementShortName">sweepPointsCalDist</obj_property>
+      <obj_property name="ObjectShortName">sweepPointsCalDist</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/sweepPointsAccu" type="logic">
+      <obj_property name="ElementShortName">sweepPointsAccu</obj_property>
+      <obj_property name="ObjectShortName">sweepPointsAccu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/updateCenters" type="logic">
+      <obj_property name="ElementShortName">updateCenters</obj_property>
+      <obj_property name="ObjectShortName">updateCenters</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/storeLabels" type="logic">
+      <obj_property name="ElementShortName">storeLabels</obj_property>
+      <obj_property name="ObjectShortName">storeLabels</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/sweepPointsStall" type="logic">
+      <obj_property name="ElementShortName">sweepPointsStall</obj_property>
+      <obj_property name="ObjectShortName">sweepPointsStall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/pointx" type="array">
+      <obj_property name="ElementShortName">pointx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pointx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/pointy" type="array">
+      <obj_property name="ElementShortName">pointy[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pointy[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist0" type="array">
+      <obj_property name="ElementShortName">dist0[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist0[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist1" type="array">
+      <obj_property name="ElementShortName">dist1[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist1[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist2" type="array">
+      <obj_property name="ElementShortName">dist2[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist2[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist3" type="array">
+      <obj_property name="ElementShortName">dist3[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist3[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist4" type="array">
+      <obj_property name="ElementShortName">dist4[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist4[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist5" type="array">
+      <obj_property name="ElementShortName">dist5[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist5[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist6" type="array">
+      <obj_property name="ElementShortName">dist6[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist6[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/dist7" type="array">
+      <obj_property name="ElementShortName">dist7[32:0]</obj_property>
+      <obj_property name="ObjectShortName">dist7[32:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/minlabel" type="array">
+      <obj_property name="ElementShortName">minlabel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">minlabel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/pointx_D1" type="array">
+      <obj_property name="ElementShortName">pointx_D1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pointx_D1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/pointy_D1" type="array">
+      <obj_property name="ElementShortName">pointy_D1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pointy_D1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu0" type="array">
+      <obj_property name="ElementShortName">xaccu0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu0" type="array">
+      <obj_property name="ElementShortName">yaccu0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu1" type="array">
+      <obj_property name="ElementShortName">xaccu1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu1" type="array">
+      <obj_property name="ElementShortName">yaccu1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu2" type="array">
+      <obj_property name="ElementShortName">xaccu2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu2" type="array">
+      <obj_property name="ElementShortName">yaccu2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu3" type="array">
+      <obj_property name="ElementShortName">xaccu3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu3" type="array">
+      <obj_property name="ElementShortName">yaccu3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu4" type="array">
+      <obj_property name="ElementShortName">xaccu4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu4" type="array">
+      <obj_property name="ElementShortName">yaccu4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu5" type="array">
+      <obj_property name="ElementShortName">xaccu5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu5" type="array">
+      <obj_property name="ElementShortName">yaccu5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu6" type="array">
+      <obj_property name="ElementShortName">xaccu6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu6" type="array">
+      <obj_property name="ElementShortName">yaccu6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/xaccu7" type="array">
+      <obj_property name="ElementShortName">xaccu7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">xaccu7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/yaccu7" type="array">
+      <obj_property name="ElementShortName">yaccu7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">yaccu7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count0" type="array">
+      <obj_property name="ElementShortName">count0[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count0[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count1" type="array">
+      <obj_property name="ElementShortName">count1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count2" type="array">
+      <obj_property name="ElementShortName">count2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count2[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count3" type="array">
+      <obj_property name="ElementShortName">count3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count3[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count4" type="array">
+      <obj_property name="ElementShortName">count4[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count4[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count5" type="array">
+      <obj_property name="ElementShortName">count5[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count5[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count6" type="array">
+      <obj_property name="ElementShortName">count6[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count6[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/k1/count7" type="array">
+      <obj_property name="ElementShortName">count7[9:0]</obj_property>
+      <obj_property name="ObjectShortName">count7[9:0]</obj_property>
+   </wvobject>
+</wave_config>

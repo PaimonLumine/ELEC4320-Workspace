@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../LAB3_2.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
 "../../../../LAB3_2.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
 "../../../../LAB3_2.srcs/sources_1/imports/SourceCode/cal_dist.v" \
 "../../../../LAB3_2.srcs/sources_1/imports/SourceCode/done_check.v" \
