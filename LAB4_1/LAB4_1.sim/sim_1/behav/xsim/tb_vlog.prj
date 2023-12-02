@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB4_1.gen/sources_1/ip/Input_RAM_B/sim/Input_RAM_B.v" \
+"../../../../LAB4_1.gen/sources_1/ip/Input_RAM_A/sim/Input_RAM_A.v" \
+"../../../../LAB4_1.gen/sources_1/ip/Output_RAM/sim/Output_RAM.v" \
+"../../../../LAB4_1.srcs/sources_1/imports/src_4a/matmult_kernel.v" \
+"../../../../LAB4_1.srcs/sources_1/imports/src_4a/matmult_top.v" \
+"../../../../LAB4_1.srcs/sources_1/imports/src_4a/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
