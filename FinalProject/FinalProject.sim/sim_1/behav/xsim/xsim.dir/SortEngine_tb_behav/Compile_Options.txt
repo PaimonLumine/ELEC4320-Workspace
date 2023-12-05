@@ -1,0 +1,1 @@
+-wto "0ab307901c794f87a3ee84dbd30f5c07" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "SortEngine_tb_behav" "xil_defaultlib.SortEngine_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

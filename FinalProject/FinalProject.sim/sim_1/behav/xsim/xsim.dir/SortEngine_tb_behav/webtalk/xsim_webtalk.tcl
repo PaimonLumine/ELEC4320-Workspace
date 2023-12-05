@@ -1,6 +1,6 @@
-webtalk_init -webtalk_dir D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_Testbench_behav/webtalk/
+webtalk_init -webtalk_dir D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Sat Dec  2 14:02:17 2023" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Dec  5 16:38:43 2023" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2020.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "3064766" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "5d0bc8ce-1d25-45e3-8f7e-2dcb716bda14" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "0ab307901c794f87a3ee84dbd30f5c07" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "8" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "46" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Windows Server 2016 or Windows 10" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "12th Gen Intel(R) Core(TM) i7-12700H" -context "user_environment"
@@ -30,13 +30,13 @@ webtalk_add_data -client xsim -key SDFModeling -value "false" -context "xsim\\co
 webtalk_add_data -client xsim -key HWCosim -value "false" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key DPI_Used -value "false" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key Debug -value "typical" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key Simulation_Image_Code -value "76 KB" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Image_Data -value "4 KB" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Image_Code -value "83 KB" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Image_Data -value "5 KB" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Total_Processes -value "28" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Total_Processes -value "43" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "3" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unimacro_ver unisims_ver " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.34_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "59984_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1891729485 -regid "" -xml D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_Testbench_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_Testbench_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_Testbench_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.12_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "64368_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 1581289147 -regid "" -xml D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/xsim.dir/SortEngine_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
