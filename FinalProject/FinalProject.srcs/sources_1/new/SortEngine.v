@@ -59,6 +59,7 @@ module SortEngine(
     reg [3:0] stage;
     reg [4:0] i = 0;
     reg [4:0] j = 0;
+    reg [4:0] k = 0;
     reg [4:0] data_counter = 0;
     reg [4:0] insert_position = 0;
     reg [3:0] update_counter = 0;
@@ -87,14 +88,14 @@ module SortEngine(
                 insert_position = 15;
                 loop_exit_flag = 0;
                 for (i = 14; i >= 0 && !loop_exit_flag; i = i - 1) begin
-                    if ((temp_f < f_storage[i]) || (temp_f == f_storage[i] && temp_s < s_storage[i])) begin
+                    if ((temp_f > f_storage[i]) || (temp_f == f_storage[i] && temp_s > s_storage[i])) begin
                         insert_position = i;
                     end else begin
                         loop_exit_flag = 1;
                     end
-                    
+    
                     if (loop_exit_flag) begin
-                        insert_position = i;
+                        insert_position = i + 1; // Insert the new data after the position found
                     end
                 end
             end
@@ -110,6 +111,36 @@ module SortEngine(
                 f_storage[insert_position] <= temp_f;
                 s_storage[insert_position] <= temp_s;
                 id_storage[insert_position] <= temp_id;
+            end
+        end else begin
+            // Check if the stored data is in descending order based on f and s fields
+            loop_exit_flag = 1;
+            for (i = 1; i < 16; i = i + 1) begin
+                if ((f_storage[i] > f_storage[i-1]) || (f_storage[i] == f_storage[i-1] && s_storage[i] > s_storage[i-1])) begin
+                    loop_exit_flag = 0;
+                end
+            end
+    
+            if (loop_exit_flag == 0) begin
+                // Data is not sorted, perform sorting
+                for (i = 0; i < 15 && !loop_exit_flag; i = i + 1) begin
+                    loop_exit_flag = 1;
+                    for (j = 0; j < 15 - i; j = j + 1) begin
+                        if ((f_storage[j+1] > f_storage[j]) || (f_storage[j+1] == f_storage[j] && s_storage[j+1] > s_storage[j])) begin
+                            // Swap data
+                            temp_f = f_storage[j];
+                            temp_s = s_storage[j];
+                            temp_id = id_storage[j];
+                            f_storage[j] = f_storage[j+1];
+                            s_storage[j] = s_storage[j+1];
+                            id_storage[j] = id_storage[j+1];
+                            f_storage[j+1] = temp_f;
+                            s_storage[j+1] = temp_s;
+                            id_storage[j+1] = temp_id;
+                            loop_exit_flag = 0;
+                        end
+                    end
+                end
             end
         end
     end
