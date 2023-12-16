@@ -2,6 +2,9 @@
 2020.2
 Nov 18 2020
 09:47:47
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.gen/sources_1/ip/data/sim/data.v,1701923286,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sources_1/new/SortEngine.v,,data,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.gen/sources_1/ip/id/sim/id.v,1701913632,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.gen/sources_1/ip/data/sim/data.v,,id,,,,,,,,
 D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
-D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sim_1/new/Testbench.v,1701761988,verilog,,,,SortEngine_tb,,,,,,,,
-D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sources_1/new/SortEngine.v,1701766309,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sim_1/new/Testbench.v,,SortEngine,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sim_1/new/Testbench.v,1702012145,verilog,,,,SortEngine_tb,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sources_1/new/SortEngine.v,1702012171,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sources_1/new/top.v,,SortEngine,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sources_1/new/top.v,1702013402,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject/FinalProject.srcs/sim_1/new/Testbench.v,,top_module,,,,,,,,

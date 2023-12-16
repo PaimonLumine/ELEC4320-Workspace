@@ -1,0 +1,13 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|              sys_clk_pin |              sys_clk_pin |                                                                      sort_engine/f_storage_reg[3][5]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                      sort_engine/f_storage_reg[3][1]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                      sort_engine/f_storage_reg[3][0]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     sort_engine/f_storage_reg[10][3]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     sort_engine/f_storage_reg[11][1]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     sort_engine/s_storage_reg[11][7]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     sort_engine/s_storage_reg[11][9]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                    sort_engine/s_storage_reg[12][11]__0/D|
+|              sys_clk_pin |              sys_clk_pin |                                                                     sort_engine/f_storage_reg[13][7]__0/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

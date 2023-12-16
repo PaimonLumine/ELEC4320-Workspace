@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sim_1/new/Testbench.v,1701860375,verilog,,,,SortEngine_tb,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sources_1/new/7segment.v,1701859929,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sources_1/new/SortEngine.v,,SevenSegmentDisplay,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sources_1/new/SortEngine.v,1701860316,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sources_1/new/top.v,,SortEngine,,,,,,,,
+D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sources_1/new/top.v,1701859620,verilog,,D:/OneDrive - HKUST Connect/HKUST/2023 Fall/ELEC4320/Workspace/FinalProject-1/FinalProject.srcs/sim_1/new/Testbench.v,,TopModule,,,,,,,,
